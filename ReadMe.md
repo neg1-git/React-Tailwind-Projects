@@ -2,6 +2,11 @@
 
 This repository contains **two React projects** styled with **Tailwind CSS** — perfect for learning, practicing, and showcasing modern frontend skills. One of the projects also uses **GSAP** for smooth, interactive animations.
 
+## 🌐 Live Demos
+
+- [React Tailwind Project](https://react-tailwind-projects-six.vercel.app/)
+- [iPhone Website Clone](https://react-tailwind-projects-vfgo.vercel.app/)
+
 ---
 
 ## 🗂️ Projects Overview
