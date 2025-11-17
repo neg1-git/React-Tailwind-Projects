@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
 
-const Navbar = () => {
+const Navbar = (): React.ReactElement => {
 
   const [nav,setNav]=useState(false)
 
