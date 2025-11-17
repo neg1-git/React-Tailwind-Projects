@@ -1,7 +1,7 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
 
-const Hero = () => {
+const Hero = (): React.ReactElement => {
   return (
     <div>
       <div className='max-w-[800px] w-full h-screen flex flex-col text-center mx-auto justify-center mt-[-96px]'>

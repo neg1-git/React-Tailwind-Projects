@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Newsletter = () => {
+const Newsletter = (): React.ReactElement => {
   return (
     <div className='w-full py-16'>
       <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
