@@ -1,5 +1,16 @@
 import React from 'react'
 
+type CardProps = {
+  user: string;
+  price: string;
+  p1: string;
+  p2: string;
+  p3: string;
+  color: string;
+  bg: string;
+  link: string;
+};
+
 function Card({
   user,
   price,
@@ -9,7 +20,7 @@ function Card({
   color,
   bg,
   link,
-}){
+}: CardProps){
   return(
   <div className={`${bg}  w-full text-center p-4 my-4 rounded-lg shadow-lg hover:shadow-[#00df9a] hover:shadow-2xl shadow-gray-700 hover:scale-105 ease-in-out duration-300`}>
           <img className='w-20 mx-auto mt-[-3rem] bg-white' src={link} alt="/" />
